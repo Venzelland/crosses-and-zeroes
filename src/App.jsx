@@ -161,7 +161,7 @@ const App = () => {
                 onClick={() => handleDifficultyChange('easy')}
                 className={`difficulty-btn ${difficulty === 'easy' ? 'active' : ''}`}
             >
-              Легко
+              Легкий
             </button>
             <button
                 onClick={() => handleDifficultyChange('medium')}
