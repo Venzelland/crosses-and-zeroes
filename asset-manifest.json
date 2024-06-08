@@ -1,13 +1,13 @@
 {
   "files": {
     "main.css": "/crosses-and-zeroes/static/css/main.835e43b8.css",
-    "main.js": "/crosses-and-zeroes/static/js/main.bce00d8f.js",
+    "main.js": "/crosses-and-zeroes/static/js/main.c93cbc00.js",
     "index.html": "/crosses-and-zeroes/index.html",
     "main.835e43b8.css.map": "/crosses-and-zeroes/static/css/main.835e43b8.css.map",
-    "main.bce00d8f.js.map": "/crosses-and-zeroes/static/js/main.bce00d8f.js.map"
+    "main.c93cbc00.js.map": "/crosses-and-zeroes/static/js/main.c93cbc00.js.map"
   },
   "entrypoints": [
     "static/css/main.835e43b8.css",
-    "static/js/main.bce00d8f.js"
+    "static/js/main.c93cbc00.js"
   ]
 }
