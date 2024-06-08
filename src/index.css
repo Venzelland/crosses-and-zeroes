@@ -1,13 +1,79 @@
 body {
+  font-family: Arial, sans-serif;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
   margin: 0;
-  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
-    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
-    sans-serif;
-  -webkit-font-smoothing: antialiased;
-  -moz-osx-font-smoothing: grayscale;
+  background-color: #f0f0f0;
+  text-align: center; /* Центрируем содержимое */
 }
 
-code {
-  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
-    monospace;
+.board {
+  display: grid;
+  grid-template-columns: repeat(3, 100px);
+  grid-gap: 10px;
+}
+
+.cell {
+  width: 100px;
+  height: 100px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-size: 2rem;
+  background-color: #fff;
+  border: 1px solid #ccc;
+  cursor: pointer;
+}
+
+.cell:hover {
+  background-color: #e0e0e0;
+}
+
+.status {
+  margin-bottom: 20px;
+  font-size: 1.5rem;
+}
+
+.button {
+  display: flex;
+}
+
+.difficulty-btn {
+  margin: 5px 0;
+  flex: 1; /* Распределяем пространство между кнопками */
+  background-color: #4CAF50;
+  border: none;
+  color: white;
+  padding: 10px 0; /* Изменяем вертикальный внутренний отступ */
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+}
+
+.difficulty-btn:hover {
+  background-color: #45a049;
+  cursor: pointer;
+}
+
+.difficulty-btn.active {
+  background-color: #007bff;
+}
+
+.restart-btn {
+  margin-top: 20px;
+  background-color: #f44336; /* Red */
+  border: none;
+  color: white;
+  padding: 10px 24px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+}
+
+.restart-btn:hover {
+  background-color: #d32f2f; /* Темно-красный цвет при наведении */
 }
